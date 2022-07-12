@@ -1,4 +1,5 @@
 {
+  "name": "lambda-scheduler",
   "release": {
     "branches": ["master", "next"]
   },

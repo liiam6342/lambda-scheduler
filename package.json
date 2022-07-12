@@ -1,31 +1,4 @@
 {
-  "name": "@cycjimmy/semantic-release-action",
-  "version": "2.0.0",
-  "description": "GitHub Action for Semantic Release",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-        "url": "git+https://github.com/cycjimmy/semantic-release-action.git"
-  },
-  "keywords": [
-    "semantic-release",
-    "action"
-  ],
-  "author": "cycjimmy <cycjimmy@gmail.com> (https://github.com/cycjimmy)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/cycjimmy/semantic-release-action/issues"
-  },
-  "homepage": "https://github.com/cycjimmy/semantic-release-action#readme",
-  "dependencies": {
-    "@actions/core": "^1.6.0",
-    "@semantic-release/changelog": "^6.0.1",
-    "@semantic-release/git": "^10.0.1",
-    "semantic-release": "^19.0.2"
-  },
   "release": {
     "branches": ["master", "next"]
   },

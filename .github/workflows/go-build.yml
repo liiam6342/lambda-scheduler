@@ -18,9 +18,9 @@ jobs:
 
     - name: Build
       run: go build -v ./...
-      working-directory: lambda
+      working-directory: scheduler
 
 
     - name: Test
       run: go test -v ./...
-      working-directory: lambda
+      working-directory: scheduler
